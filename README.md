@@ -20,3 +20,5 @@ Curso: 4º
 
 
 ## Previsualización del Programa
+
+<p align="center"> <img src="animacion.gif" alt="gif animado" /> </p>
