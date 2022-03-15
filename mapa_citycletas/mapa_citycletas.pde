@@ -206,7 +206,7 @@ void showText() {
   text("INSTRUCTIONS",  width/29 * 4.5, height/29 * 11);
   
   text("Press R to reset.", width/29 *2, height/29 * 12);
-  text("Use the mouse to interact with the map.", width/29 *2, height/29 * 13);
+  text("Use the mouse to drag and zoom the map.", width/29 *2, height/29 * 13);
   text("Use the keyboard arrows to navigate", width/29 *2, height/29 * 14);
   text("the menu.", width/29 *2, height/29 * 15);
   text("Press ENTER to show/hide the travels ", width/29 *2, height/29 * 16);
@@ -269,7 +269,7 @@ void drawTravelsSeason() {
           if(fechaPrestamo.after(firstDateOfYear) && fechaPrestamo.before(spring) || fechaPrestamo.after(winter) && fechaPrestamo.before(lastDayOfYear) || winter.equals(fechaPrestamo) || firstDateOfYear.equals(fechaPrestamo) || lastDayOfYear.equals(fechaPrestamo)) {
             drawRentalPlaceTravels(travels, station);
             drawReturnPlaceTravels(travels, station);
-            //fechaPrestamo.after(winter) && fechaPrestamo.before(lastDayOfYear) || winter.equals(fechaPrestamo) || 
+
           }
           break;
         case 2:  //Primavera
